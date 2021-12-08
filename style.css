@@ -1,6 +1,145 @@
-/*@font-face {
-  font-family: 'Open Sans';
-  src: local('OpenSans'),
-  url('/fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
-  url('/fonts/OpenSans-Regular-webfont.woff') format('woff');
-}*/
+:root {
+  --main-color: red;
+  --font-color: rgb(34, 102, 34);
+}
+@font-face {
+  font-family: 'Fuzzy Bubbles';
+  src: url('fonts/FuzzyBubbles-Regular.woff2') format('woff2');
+  src: url('fonts/FuzzyBubbles-Regular.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Fuzzy Bubbles';
+  color: var(--main-color);
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.merry-christmas {
+  position: absolute;
+  z-index: 999;
+  font-size: x-large;
+  user-select: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.greeting {
+  margin-top: 30%;
+  position: absolute;
+  z-index: 999;
+  margin-left: 15%;
+  color: var(--font-color);
+  text-align: center;
+  width: 70%;
+}
+
+.snow-background img {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.moving-santa img {
+  width: 90px;
+  height: 90px;
+  margin-left: -30%;
+  margin-top: 400px;
+  z-index: 999;
+  position: absolute;
+}
+.snow-man img {
+  width: 90px;
+  height: 90px;
+  z-index: 1000;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 550px;
+}
+.reindeers img {
+  width: 150px;
+  height: 100px;
+  z-index: 998;
+  position: absolute;
+  margin-top: 105px;
+  margin-left: -40%;
+}
+
+.move {
+  transform: translateX(130%);
+  transition: all 7s ease-in-out;
+}
+
+.move-reindeers {
+  transform: translateX(140%);
+  transition: all 12s ease-in-out;
+}
+
+.move-snowman {
+  animation: move-snowman 2s infinite;
+}
+
+@keyframes move-snowman {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1, 0.9) translateY(-200px);
+  }
+  30% {
+    transform: scale(1, 1.1) translateY(-200px);
+  }
+  50% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .merry-christmas {
+    font-size: 200%;
+  }
+  .greeting {
+    font-size: 150%;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .merry-christmas {
+    font-size: 300%;
+    margin-left: 25%;
+  }
+
+  .greeting {
+    font-size: 200%;
+    margin-top: 15%;
+    width: 500px;
+    margin-left: 35%;
+  }
+
+  .moving-santa img {
+    width: 180px;
+    height: 180px;
+    margin-top: 18%;
+  }
+
+  .snow-man img {
+    width: 180px;
+    height: 180px;
+    margin-left: 70%;
+    margin-top: 500px;
+  }
+
+  .reindeers img {
+    width: 300px;
+    height: 200px;
+    margin-top: 90px;
+  }
+}
