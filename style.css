@@ -45,11 +45,11 @@ body {
   position: absolute;
 }
 
-.moving-santa img {
+.santa-claus img {
   width: 90px;
   height: 90px;
   margin-left: -30%;
-  margin-top: 400px;
+  margin-top: 450px;
   z-index: 999;
   position: absolute;
 }
@@ -66,11 +66,11 @@ body {
   height: 100px;
   z-index: 998;
   position: absolute;
-  margin-top: 105px;
+  margin-top: 100px;
   margin-left: -40%;
 }
 
-.move {
+.move-santa-claus {
   transform: translateX(130%);
   transition: all 7s ease-in-out;
 }
@@ -102,6 +102,12 @@ body {
   }
 }
 
+@media screen and (min-width: 394px) {
+  .merry-christmas {
+    padding-left: 3%;
+  }
+}
+
 @media screen and (min-width: 550px) {
   .merry-christmas {
     font-size: 200%;
@@ -123,11 +129,10 @@ body {
     width: 500px;
     margin-left: 35%;
   }
-
-  .moving-santa img {
+  .santa-claus img {
     width: 180px;
     height: 180px;
-    margin-top: 18%;
+    margin-top: 400px;
   }
 
   .snow-man img {
@@ -141,5 +146,11 @@ body {
     width: 300px;
     height: 200px;
     margin-top: 90px;
+  }
+}
+
+@media screen and (min-width: 1094px) {
+  .santa-claus img {
+    margin-top: 22%;
   }
 }
