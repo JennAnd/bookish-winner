@@ -3,7 +3,7 @@
 # bookish-winner
 
 A website to celebrate the amazing Christmas holiday! Click, hover or press any key for some some Christmas surprises.
-Follow the link https://xenodochial-meitner-c2e6b9.netlify.app/ to view my site.
+Follow the link https://bookish-winner.netlify.app/ to view my site.
 
 # Installation
 
