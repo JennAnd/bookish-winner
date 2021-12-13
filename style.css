@@ -109,6 +109,7 @@ p {
   bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  width: 250px;
 }
 
 @media screen and (min-width: 394px) {
@@ -158,6 +159,7 @@ p {
   }
   p {
     font-size: x-large;
+    width: 600px;
   }
 }
 
