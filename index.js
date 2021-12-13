@@ -37,7 +37,7 @@ javaGreeting.addEventListener('click', () => {
   //Event listener of random greetings from array//
   const randomElement =
     uppercaseGreeting[Math.floor(Math.random() * uppercaseGreeting.length)];
-  getGreeting.innerHTML = randomElement;
+  getGreeting.textContent = randomElement;
 });
 
 const moveSanta = document.querySelector('.santa-claus');
@@ -45,7 +45,7 @@ const moveSnowman = document.querySelector('.snow-man');
 const moveReindeers = document.querySelector('.reindeers');
 
 //Event listeners of moving items//
-window.addEventListener('keypress', function (event) {
+window.addEventListener('keypress', function () {
   moveSanta.classList.toggle('move-santa-claus');
   moveReindeers.classList.toggle('move-reindeers');
   moveSnowman.classList.toggle('move-snowman');
@@ -53,6 +53,6 @@ window.addEventListener('keypress', function (event) {
 
 //Event listener of playing music//
 const music = document.querySelector('.audio');
-window.addEventListener('click', (event) => {
+window.addEventListener('click', () => {
   music.play();
 });
