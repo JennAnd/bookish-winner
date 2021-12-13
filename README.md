@@ -1,7 +1,5 @@
 <img src="https://media2.giphy.com/media/26gR0BuSZabqSyNig/giphy.gif?cid=790b76117c49e97151cdd7db0ae5ee9434efee76b06afabf&rid=giphy.gif&ct=g">
 
-https://media2.giphy.com/media/26gR0BuSZabqSyNig/giphy.gif?cid=790b76117c49e97151cdd7db0ae5ee9434efee76b06afabf&rid=giphy.gif&ct=g
-
 # bookish-winner
 
 A website to celebrate the amazing Christmas holiday! Click, hover or press any key for some some Christmas surprises.
