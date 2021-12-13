@@ -15,11 +15,13 @@ Follow the link https://xenodochial-meitner-c2e6b9.netlify.app/ to view my site.
 
 Code Review written by Theo Sandell.
 
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+1. `index.js:15-25` - These functions can be moved out of the event listener.
+2. `index.js:19` - This functions should be written as an arrow function.
+3. `index.js:40` - Here you should use textContent instead of innerHTML for security reasons. Risk for cross site scripting attack.
+4. `index.js:43-45` - Element selectors should be defined on top of the javascript file.
+5. `index.js:48` - Not using event argument.
+6. `index.js:55` - Element selectors should be defined on top of the javascript file.
+7. `index.js:56` - Not using event argument.
 
 # Testers
 
