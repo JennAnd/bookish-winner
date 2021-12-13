@@ -1,4 +1,6 @@
-<img src="https://giphy.com/gifs/26gR0BuSZabqSyNig">
+<img src="https://media2.giphy.com/media/26gR0BuSZabqSyNig/giphy.gif?cid=790b76117c49e97151cdd7db0ae5ee9434efee76b06afabf&rid=giphy.gif&ct=g">
+
+https://media2.giphy.com/media/26gR0BuSZabqSyNig/giphy.gif?cid=790b76117c49e97151cdd7db0ae5ee9434efee76b06afabf&rid=giphy.gif&ct=g
 
 # bookish-winner
 
@@ -7,7 +9,7 @@ Follow the link https://xenodochial-meitner-c2e6b9.netlify.app/ to view my site.
 
 # Installation
 
-1.  Clone the repository bookish-winner from my GitHub:JennAnd/bookish-winner.
+1.  Clone the repository bookish-winner from my GitHub: JennAnd/bookish-winner.
 2.  Start a localhost server to view my project: localhost:8000.
 3.  Add /index.php at the end of the URL. Now you have access.
 
